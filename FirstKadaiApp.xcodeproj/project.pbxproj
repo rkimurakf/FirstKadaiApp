@@ -24,6 +24,7 @@
 		EA7F91592C99670E00E38BC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7F915C2C99670E00E38BC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA7F915E2C99670E00E38BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7F91642C9967AB00E38BC3 /* FirstKadaiApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = FirstKadaiApp.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			children = (
 				EA7F91502C99670E00E38BC3 /* AppDelegate.swift */,
 				EA7F91522C99670E00E38BC3 /* SceneDelegate.swift */,
+				EA7F91642C9967AB00E38BC3 /* FirstKadaiApp.xcodeproj */,
 				EA7F91542C99670E00E38BC3 /* ViewController.swift */,
 				EA7F91562C99670E00E38BC3 /* Main.storyboard */,
 				EA7F91592C99670E00E38BC3 /* Assets.xcassets */,
@@ -65,6 +67,11 @@
 				EA7F915E2C99670E00E38BC3 /* Info.plist */,
 			);
 			path = FirstKadaiApp;
+			sourceTree = "<group>";
+		};
+		EA7F91652C9967AB00E38BC3 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +120,12 @@
 			mainGroup = EA7F91442C99670E00E38BC3;
 			productRefGroup = EA7F914E2C99670E00E38BC3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA7F91652C9967AB00E38BC3 /* Products */;
+					ProjectRef = EA7F91642C9967AB00E38BC3 /* FirstKadaiApp.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA7F914C2C99670E00E38BC3 /* FirstKadaiApp */,
